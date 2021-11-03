@@ -29,7 +29,7 @@ public class Ex5 {
     }
 
     public  static  void startAndAgain(){
-        Scanner scanner = new Scanner(System.in);;
+        Scanner scanner = new Scanner(System.in);
         int typeWorker, hourAmount, bonusDays;
         System.out.println("Enter type of worker: ");
         typeWorker = scanner.nextInt();
