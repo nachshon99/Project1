@@ -35,7 +35,7 @@ public class Ex5 {
         typeWorker = scanner.nextInt();
         System.out.println("Enter amount of working hours: ");
         hourAmount = scanner.nextInt();
-        System.out.println("Enter amount of bonus days ");
+        System.out.println("Enter amount of bonus days: ");
         bonusDays = scanner.nextInt();
 
         int resSalary = calSalary(typeWorker, hourAmount, bonusDays);
