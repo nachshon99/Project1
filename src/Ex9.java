@@ -19,8 +19,9 @@ public class Ex9 {
         }
         return false;
     }
+
     public static Boolean prime(int num){
-        Boolean res = true;
+
         for (int i=2;i<num;i++){
             if (withoutResidue(num, i)){
                 return false;

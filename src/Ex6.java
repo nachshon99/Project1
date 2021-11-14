@@ -8,11 +8,13 @@ public class Ex6 {
         firstLimb = scanner.nextInt();
         System.out.println("Enter a difference: ");
         diff = scanner.nextInt();
-        System.out.println("Enter amount of limbs: ");
-        amount = scanner.nextInt();
-        if(amount>0){
-            invoiceSeries(firstLimb,diff,amount);
-        }
+        do {
+            System.out.println("Enter amount of limbs: ");
+            amount = scanner.nextInt();
+        }while (amount<=0);
+
+        invoiceSeries(firstLimb,diff,amount);
+
 
 
 

@@ -5,7 +5,7 @@ public class Ex10 {
         Scanner scanner = new Scanner(System.in);
         int number1, number2, count1 = 0, count2 = 0;
         double randomNumber = (int)(Math.random()*1000)+1;
-        //System.out.println(randomNumber);
+        System.out.println(randomNumber);
 
         do{
             System.out.println("User1");
