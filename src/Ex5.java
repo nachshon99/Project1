@@ -31,8 +31,10 @@ public class Ex5 {
     public  static  void startAndAgain(){
         Scanner scanner = new Scanner(System.in);
         int typeWorker, hourAmount, bonusDays;
-        System.out.println("Enter type of worker: ");
-        typeWorker = scanner.nextInt();
+        do{
+            System.out.println("Enter type of worker: ");
+            typeWorker = scanner.nextInt();
+        }while (typeWorker != 1 && typeWorker != 0);
         System.out.println("Enter amount of working hours: ");
         hourAmount = scanner.nextInt();
         System.out.println("Enter amount of bonus days: ");
