@@ -29,13 +29,13 @@ public class Ex5 {
     }
 
     public  static  void startAndAgain(){
-        Scanner scanner = new Scanner(System.in);;
+        Scanner scanner = new Scanner(System.in);
         int typeWorker, hourAmount, bonusDays;
         System.out.println("Enter type of worker: ");
         typeWorker = scanner.nextInt();
         System.out.println("Enter amount of working hours: ");
         hourAmount = scanner.nextInt();
-        System.out.println("Enter amount of bonus days ");
+        System.out.println("Enter amount of bonus days: ");
         bonusDays = scanner.nextInt();
 
         int resSalary = calSalary(typeWorker, hourAmount, bonusDays);
